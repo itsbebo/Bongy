@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+#start-screen, #game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #222;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #f00;
+  display: none;
+}
+
+#start-screen h1,
+#game-over h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: darkred;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  background: url('https://i.imgur.com/jq5m5ae.jpg') no-repeat center center;
+  background-size: cover;
+  border: 3px solid #fff;
+  margin-top: 20px;
+  max-width: 100%;
+}

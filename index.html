@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لعبة حرب 2D - Bibo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="start-screen">
+    <h1>🔥 BIBO WAR 🔥</h1>
+    <button onclick="startGame()">ابدأ اللعبة</button>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="game-over">
+    <h2 id="resultText">انتهت اللعبة</h2>
+    <p>النقاط: <span id="finalScore">0</span></p>
+    <button onclick="restartGame()">العب تاني</button>
+  </div>
+
+  <audio id="shootSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_9faaa7d85c.mp3?filename=laser-gun-81267.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
