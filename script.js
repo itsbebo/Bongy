@@ -94,7 +94,6 @@ function gameOver(won) {
 function update() {
   if (!gameRunning) return;
 
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   // تحريك اللاعب
   if (keys['ArrowUp'] && player.y > 0) player.y -= player.speed;

@@ -53,3 +53,10 @@ canvas {
   margin-top: 20px;
   max-width: 100%;
 }
+body {
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
